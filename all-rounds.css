@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url("/images/all-rounds-background.jpg");
+  background-size: cover;
+}
+
+main {
+  height: auto;
+  margin: 0;
+  background-image: none;
+}
+
+main h1 {
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 2rem 35rem;
+  border-radius: 6px;
+  color: white;
+  background-color: purple;
+}
+
+.question-score-timer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+/* Question board properties */
+.question-board {
+  width: 55rem;
+  height: 15rem;
+  padding: 1rem 1rem;
+  margin: 2rem 2rem;
+  border-radius: 6px;
+  box-shadow: 5px 5px 2px rgba(255, 255, 255, 0.2);
+  font-size: 1.5rem;
+  background-color: red;
+  color: white;
+  text-align: left;
+}
+
+/* Statistics (order of questions, turns, etc.) */
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  color: white;
+}
+
+.timer {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  margin: 0;
+  border-radius: 6.75rem;
+  background-color: gray;
+}
+
+.question-bar {
+  font-size: 1.5rem;
+  width: 70rem;
+  height: 2rem;
+  border-radius: 6px;
+  background-color: brown;
+  color: white;
+}
+
+/* For Obstacle and Acceleration only */
+.answer-box {
+  width: 100rem;
+  height: 2rem;
+  background-color: bisque;
+  color: aquamarine;
+}
