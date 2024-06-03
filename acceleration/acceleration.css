@@ -1,5 +1,5 @@
 .question-bar {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 /* Properties for the container of an image/video */
@@ -11,27 +11,28 @@
   background-color: blueviolet;
 }
 
-#acceleration {
+.acceleration {
   margin: 1rem;
 }
 
 #answer-record {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
 }
 
 #accel-record {
-    display: inline;
-    width: 100rem;
-    margin: 0.5rem auto;
-    padding: 0.5rem 0;
-    background-color: aqua;
+  display: inline;
+  width: 90rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0;
+  background-color: aqua;
 }
 
-#accel-time, #accel-player-answer {
-    font-weight: 700;
-    color: red;
+#accel-time,
+#accel-player-answer {
+  font-weight: 700;
+  color: red;
 }

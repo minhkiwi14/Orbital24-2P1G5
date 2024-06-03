@@ -75,7 +75,7 @@ main {
   margin-left: -8px;
   margin-right: -8px;
   margin-bottom: 50px;
-  height: 730px;
+  height: 700px;
   background-image: url("/images/background.jpg");
   background-position: center;
   background-size: cover;
@@ -134,7 +134,7 @@ footer p {
 }
 
 .answer-btn {
-  width: 103rem;
+  width: 90rem;
   height: 3rem;
   margin: 2rem 0;
   font-size: 2rem;
