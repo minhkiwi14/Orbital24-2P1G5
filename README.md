@@ -28,10 +28,19 @@ A website emulating the RtMO's format for students to self-organize online and o
 
 ## Development Plan
 **Vacation Week 1**: Preparation for Orbital Lift-off
+
 **Vacation Week 2**: Pick up technologies and create Home Page and About Page
+
 **Vacation Week 3**: Create pages for Players and MCs
+
 **Vacation Week 4**: Create pages for Technicians
+
 **Vacation Week 5**: Implement the Questioning System
+
 **Vacation Week 6-7**: Start building Contest Management
+
 **Vacation Week 8**: Build User Authentication
-**Vacation Week 9-10**: Create Real-time Contest Monitoring
+
+**Vacation Week 9**: Create Real-time Contest Monitoring
+
+**Vacation Week 10-11**: Testing and Debugging
