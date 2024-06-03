@@ -19,7 +19,7 @@ main h1 {
   background-color: purple;
 }
 
-.question-score-timer{
+.question-score-timer {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -69,8 +69,16 @@ main h1 {
 
 /* For Obstacle and Acceleration only */
 .answer-box {
-  width: 100rem;
+  width: 90rem;
   height: 2rem;
   background-color: bisque;
-  color: aquamarine;
+  color: black;
+}
+
+.mc-answer {
+  /* width: 5rem; */
+  padding: 1rem 0;
+  margin: 2rem 25rem;
+  background-color: blue;
+  color: white;
 }

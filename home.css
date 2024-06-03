@@ -32,8 +32,8 @@ main p {
   text-align: center;
   color: darkgray;
   margin-bottom: 120px;
-  margin-left: 375px;
-  margin-right: 375px;
+  /*margin-left: 360px;
+  margin-right: 360px;*/
 }
 
 strong {
