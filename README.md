@@ -1,14 +1,18 @@
 # Orbital24-2P1G5
+ 
 
 ## Proposed level of achievement
 Project Gemini
+ 
 
 ## Motivation
 In our country Vietnam, "Road to Mount Olympia" (RtMO) is a top-rated game show tailored for high school students. Established in 1999 by VTV - Vietnam Television, the national broadcaster of Vietnam, it offers an annual opportunity for 144 Grade 11 contestants to demonstrate their knowledge to millions of viewers nationwide. The grand prize for the highest winner every year is a full-ride scholarship to Swinburne University of Technology and 50,000 USD for living expenses. We have always been big fans of this TV program and dreamt of participating as contestants. Unfortunately, despite our tireless efforts to prepare ourselves, due to several circumstances, our dream never came true. Nevertheless, we do not give up; now as bachelor students, with the spirit of "sharing is caring," we have decided to develop a website that simulates RtMO's format. Through this initiative, we aim to assist future generations in realizing their ambitions of taking part in such a prestigious show, leveraging our skills to contribute to their success partly.
 
 
+
 ## Aim
 We hope to provide a platform that emulates RtMO's format for students, facilitating participation for groups of four or more in emulator matches which imitates the experience of competing on the actual show.
+ 
 
 ## User Stories
 1. As a Player, I can enter emulated contests (organized by Technicians) only with the contest code and a password, so that I can join them quickly.
@@ -18,29 +22,29 @@ We hope to provide a platform that emulates RtMO's format for students, facilita
 5. As an MC, I can enter contests only with a special password given by the Technician, so that I can join them quickly.
 6. As an MC, I can read questions from the screen without having to do any actions, so that I can focus on interacting verbally with Players.
 7. As an MC, I can also serve as a technician in some online contests, so that human resources can be utilized.
+ 
 
 ## Scope of Project
 A website emulating the RtMO's format for students to self-organize online and offline contests.
+ 
 
-## Tech Stack (used up to Milestone 1)
+## Tech Stack (used up to Milestone 2)
 1. HTML
 2. CSS
+3. JavaScript
+ 
 
 ## Development Plan
 **Vacation Week 1**: Preparation for Orbital Lift-off
-
 **Vacation Week 2**: Pick up technologies and create Home Page and About Page
-
 **Vacation Week 3**: Create pages for Players and MCs
-
 **Vacation Week 4**: Create pages for Technicians
-
 **Vacation Week 5**: Implement the Questioning System
-
 **Vacation Week 6-7**: Start building Contest Management
-
 **Vacation Week 8**: Build User Authentication
+**Vacation Week 9-10**: Create Real-time Contest Monitoring
 
-**Vacation Week 9**: Create Real-time Contest Monitoring
 
-**Vacation Week 10-11**: Testing and Debugging
+ 
+## Website link 
+https://astounding-chebakia-60d117.netlify.app/
