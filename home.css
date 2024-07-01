@@ -40,6 +40,15 @@ strong {
   color: white;
 }
 
+main ul {
+  position: relative;
+  left: -1rem;
+  top: -4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 25rem);
+  justify-content: center;
+}
+
 main li {
   display: inline;
   font-family: "Shrikhand", serif;

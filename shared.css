@@ -149,8 +149,19 @@ footer p {
   border-color: rgb(14, 131, 14);
 }
 
-.test-nav a{
+.test-nav {
+  margin-top: 70px;
+}
+
+.test-nav a {
+  font-size: 24px;
   padding: 1rem;
   border-radius: 6px;
   background-color: white;
+}
+
+.test-nav a:hover {
+  text-decoration: none;
+  background-color: purple;
+  color: white;
 }

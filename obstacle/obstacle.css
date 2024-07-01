@@ -10,13 +10,24 @@ img {
   margin-top: 100px;
 }
 
-ul {
+/*ul {
   margin-top: 50px;
   margin-left: -90px;
-}
+}*/
 
 li {
   display: inline;
+}
+
+.image ul {
+  display: grid;
+  grid-template-columns: repeat(2, 19rem);
+  grid-template-rows: repeat(2, 12.7rem);
+  justify-content: center;
+  gap: 0rem;
+  position: relative;
+  left: -43px;
+  top: -331px
 }
 
 .image span {
@@ -26,40 +37,53 @@ li {
   background: darkgray;
 }
 
-#pic1 {
-  top: -365px;
-  left: 50px;
+.question-score-timer {
+  margin-bottom: -27rem;
 }
 
+#pic1 {
+  display: sub;
+}
+
+/*
 #pic2 {
   top: -365px;
   left: 42px;
 }
 
 #pic3 {
-  top: -161px;
-  left: -569px;
+  top: -162px;
+  left: -568px;
 }
 
 #pic4 {
-  top: -161px;
+  top: -162px;
   left: -576px;
-}
+} */
 
 #pic5 {
-  top: -263px;
-  left: -1040px;
+  left: 140px;
+  top: -300px
 }
+
+/*.word {
+  position: relative;
+  top: -510px;
+  left: 710px;
+  width: 50rem;
+  margin-bottom: -450px;
+}*/
 
 .word {
   position: relative;
-  top: -510px;
-  left: 350px;
-  margin-bottom: -450px;
+  top: -13rem;
+  right: 5rem;
 }
 
 .word ul {
-  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(18, 2.5rem);
+  margin-top: 3rem;
 }
 
 .word p {
@@ -77,7 +101,7 @@ li {
   margin-bottom: 0px;
 }
 
-.word li p {
+.word li p{
   padding: 2px 10px;
   margin: 0px;
   border: 5px solid black;
@@ -87,7 +111,16 @@ li {
   color: white;
 }
 
+#player-hori ul p {
+  color: darkgray;
+}
+
+#player-hori .no {
+  color: black;
+}
+
 .word .no {
+  border-radius: 50px;
   border: 5px solid darkgray;
   padding: 2px 11px;
   color: black;
@@ -108,21 +141,14 @@ li {
   margin-bottom: 5rem;
 }
 
-#choose {
-  margin-bottom: 100px;
-  color: white;
-  font-size: 36px;
-  font-family: "Nunito", sans-serif;
-}
-
 .question-bar {
-  width: 90rem;
+  width: 90rem
 }
 
 .answer-obstacle {
   list-style-type: decimal;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 
 .answer-obstacle p {
@@ -133,7 +159,7 @@ li {
   border: 10px solid darkgray;
   background-color: white;
   border-radius: 10px;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   color: black;
 }
 
@@ -151,7 +177,7 @@ li {
   justify-content: space-between;
   margin: 250px;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 #ans p {
@@ -161,4 +187,16 @@ li {
   background-color: white;
   border-radius: 20px;
   padding: 5px 10px;
+}
+
+#word-mc {
+  margin-top: 120px;
+}
+
+#answer-btn-mc-obstacle {
+  margin-bottom: -100rem;
+}
+
+.answer-btn {
+  margin-top: 1rem;
 }

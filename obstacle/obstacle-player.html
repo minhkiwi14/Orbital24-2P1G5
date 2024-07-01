@@ -18,104 +18,111 @@
       rel="stylesheet"
     />
     <link rel="icon" href="/images/favicon1.ico" type="images/x-icon" />
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <main>
       <h1>Round 2: Obstacle</h1>
 
-      <section class="image">
-        <img src="/images/challenge.jpg" />
-        <ul>
-          <li><span id="pic1"></span></li>
-          <li><span id="pic2"></span></li>
-          <li><span id="pic3"></span></li>
-          <li><span id="pic4"></span></li>
-          <li><span id="pic5"></span></li>
-        </ul>
+      <!-- Just for testing -->
+      <section class="test-nav">
+        <a href="/warmup/warmup-player.html">Back</a>
+        <a href="/acceleration/acceleration-player.html">Next</a>
       </section>
-
-      <section class="word">
-        <p>The obstacle has 5 letters</p>
-        <ul>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p class="no">1</p></li>
-        </ul>
-        <ul>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p class="no">2</p></li>
-        </ul>
-        <ul>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p class="no">3</p></li>
-        </ul>
-        <ul>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p>r</p></li>
-          <li><p class="no">4</p></li>
-        </ul>
+      <section class="question-score-timer">
+        <section class="image">
+          <img src="/images/challenge.jpg" />
+          <ul>
+            <li><span id="pic1"></span></li>
+            <li><span id="pic2"></span></li>
+            <li><span id="pic3"></span></li>
+            <li><span id="pic4"></span></li>
+            <li><span id="pic5"></span></li>
+          </ul>
+        </section>
+        <section class="word" id="player-hori">
+          <p>The obstacle has 5 letters</p>
+          <ul>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li>`<p class="no">1</p></li>
+          </ul>
+          <ul>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li>`<p class="no">2</p></li>
+          </ul>
+          <ul>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li>`<p class="no">3</p></li>
+          </ul>
+          <ul>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li><p>r</p></li>
+            <li>`<p class="no">4</p></li>
+          </ul>
+        </section>
       </section>
 
       <section id="answer-record">
@@ -132,17 +139,11 @@
       </section>
 
       <ol class="answer-obstacle">
-        <li><p>AB</p></li>
-        <li><p>CD</p></li>
-        <li><p>EF</p></li>
-        <li><p>GH</p></li>
+        <li><p>PLAYER 1</p></li>
+        <li><p>PLAYER 2</p></li>
+        <li><p>PLAYER 3</p></li>
+        <li><p>PLAYER 4</p></li>
       </ol>
-
-      <!-- Just for testing -->
-      <section class="test-nav">
-        <a href="/warmup/warmup-player.html">Back</a>
-        <a href="/acceleration/acceleration-player.html">Next</a>
-      </section>
     </main>
   </body>
 </html>
