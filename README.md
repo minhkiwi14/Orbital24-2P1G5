@@ -22,25 +22,17 @@ We hope to provide a platform that emulates RtMO's format for students, facilita
 ## Scope of Project
 A website emulating the RtMO's format for students to self-organize online and offline contests.
 
-## Tech Stack (used up to Milestone 1)
+## Core features completed:
+1. Feature 1 (core): Home page
+2. Feature 2 (core): Players page
+3. Feature 3 (core): MCs page
+4. Feature 4 (core): Technicians page
+5. Feature 5 (core): Round-based Questioning System
+6. Feature 6 (extension): User Registration and Account Creation
+
+## Tech Stacks
 1. HTML
 2. CSS
-
-## Development Plan
-**Vacation Week 1**: Preparation for Orbital Lift-off
-
-**Vacation Week 2**: Pick up technologies and create Home Page and About Page
-
-**Vacation Week 3**: Create pages for Players and MCs
-
-**Vacation Week 4**: Create pages for Technicians
-
-**Vacation Week 5**: Implement the Questioning System
-
-**Vacation Week 6-7**: Start building Contest Management
-
-**Vacation Week 8**: Build User Authentication
-
-**Vacation Week 9**: Create Real-time Contest Monitoring
-
-**Vacation Week 10-11**: Testing and Debugging
+3. JavaScript
+4. Node.js
+5. MongoDB
