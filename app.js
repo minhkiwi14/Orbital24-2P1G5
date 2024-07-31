@@ -12,13 +12,19 @@ const errorHandler = require("./middlewares/error-handler");
 const createSessionConfig = require("./config/session");
 const checkAuth = require("./middlewares/check-auth");
 
+let port = 3000;
+
+if (process.env.PORT) {
+  port = process.env.PORT;
+}
+
 const app = express();
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static("public"));
-app.use('/imageStorage', express.static("imageStorage"));
+app.use("/imageStorage", express.static("imageStorage"));
 app.use(express.urlencoded({ extended: false }));
 
 const sessionConfig = createSessionConfig();
@@ -32,18 +38,17 @@ app.use(checkAuth);
 app.use(baseRoutes);
 app.use(authRoutes);
 
-app.use(function(req, res) {
-  res.status(404).render('shared/404');
-})
+app.use(function (req, res) {
+  res.status(404).render("shared/404");
+});
 
 app.use(errorHandler);
 
 db.connectToDatabase()
   .then(function () {
-    app.listen(3000);
+    app.listen(port);
   })
   .catch(function (error) {
     console.log("Failed to connect!");
     console.log(error);
   });
-
