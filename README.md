@@ -54,4 +54,5 @@ A website emulating the RtMO's format for students to self-organize online and o
  
  
 ## Website link 
-https://astounding-chebakia-60d117.netlify.app/
+https://intelligame.onrender.com/
+
