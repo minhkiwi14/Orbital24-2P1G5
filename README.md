@@ -14,11 +14,17 @@ We hope to provide a platform that emulates RtMO's format for students, facilita
  
 ## User Stories
 As a Player, I can enter emulated contests (organized by Technicians) only with the contest code and a password to join them quickly.
+
 As a Player, I can interact with the contest interface using keyboard and mouse inputs to send the answer or press the button to get the right to answer the questions.
+
 As a Technician, I can create an account for myself, so I can access my question banks and initiate matches without affecting others.
+
 As a Technician, I can create question banks and manage technical tasks during a contest (select questions, manage the countdown timer, etc.).
+
 As an MC, I can enter contests only with a special password given by the Technician, so I can join them quickly.
+
 As an MC, I can read questions from the screen without having to do any actions, so I can focus on interacting verbally with Players.
+
 As an MC, I can also serve as a technician in some online contests to utilize human resources.
  
 ## Scope of Project
