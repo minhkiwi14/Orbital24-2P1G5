@@ -9,7 +9,7 @@ In our country Vietnam, "Road to Mount Olympia" (RtMO) is a top-rated game show 
 
  
 ## Aim
-We hope to provide a platform that emulates RtMO's format for students, facilitating participation for groups of four or more in emulator matches which imitates the experience of competing on the actual show.
+We would like to provide a platform that emulates RtMO's format for students, facilitating participation for groups of four or more in emulator matches which imitates the experience of competing on the actual show.
 
  
 ## User Stories
@@ -19,24 +19,17 @@ As a Player, I can interact with the contest interface using keyboard and mouse 
 
 As a Technician, I can create an account for myself, so I can access my question banks and initiate matches without affecting others.
 
-As a Technician, I can create question banks and manage technical tasks during a contest (select questions, manage the countdown timer, etc.).
+As a Technician, I can create question banks and manage technical tasks during a contest (e.g., selecting questions, managing the countdown timer, etc.).
 
 As an MC, I can enter contests only with a special password given by the Technician, so I can join them quickly.
 
-As an MC, I can read questions from the screen without having to do any actions, so I can focus on interacting verbally with Players.
+As an MC, I can read questions from the screen without taking any action, allowing me to focus on interacting verbally with Players.
 
 As an MC, I can also serve as a technician in some online contests to utilize human resources.
  
 ## Scope of Project
 A website emulating the RtMO's format for students to self-organize online and offline contests.
 
-## Core features completed:
-Feature 1 (core): Home page
-Feature 2 (core): Players page
-Feature 3 (core): MCs page
-Feature 4 (core): Technicians page
-Feature 5 (core): Round-based Questioning System
-Feature 6 (extension): User Registration and Account Creation
  
 ## Tech Stacks
 HTML
@@ -49,9 +42,6 @@ MongoDB
 ## Documentation link
 https://docs.google.com/document/d/1vpFaw6gj6sMy8xzFRJsIgQZsB4JjpspT4LcGqMbLQAg/edit?usp=sharing
 
-
-## Notes
-Please install the following Node.js dependencies before testing: bcryptjs, body-parser, connect-mongodb-session, cookie-parser, csurf, ejs, express, express-session, mongodb, multer, save
 
 ## Website Deployment
 https://intelligame.onrender.com/
