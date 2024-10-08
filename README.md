@@ -44,12 +44,7 @@ CSS
 JavaScript
 Node.js
 MongoDB
- 
 
-## GitHub repository
-https://github.com/minhkiwi14/Orbital24-2P1G5.git
-
- 
 
 ## Documentation link
 https://docs.google.com/document/d/1vpFaw6gj6sMy8xzFRJsIgQZsB4JjpspT4LcGqMbLQAg/edit?usp=sharing
